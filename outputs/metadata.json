@@ -1,0 +1,23 @@
+{
+  "project": "TerraVision AI",
+  "dataset": "EuroSAT RGB",
+  "seed": 42,
+  "classes": [
+    "AnnualCrop",
+    "Forest",
+    "HerbaceousVegetation",
+    "Highway",
+    "Industrial",
+    "Pasture",
+    "PermanentCrop",
+    "Residential",
+    "River",
+    "SeaLake"
+  ],
+  "num_classes": 10,
+  "input_sizes": {
+    "Custom CNN": 64,
+    "ResNet18": 224,
+    "ViT-B16": 224
+  }
+}

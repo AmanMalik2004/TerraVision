@@ -1,0 +1,26 @@
+{
+  "Custom CNN": {
+    "accuracy": 0.8046913580246914,
+    "macro_precision": 0.8024482589710603,
+    "macro_recall": 0.8026666666666668,
+    "macro_f1": 0.7980166384663925,
+    "inference_ms_per_image": 0.0713020666682249,
+    "macro_roc_auc_ovr": null
+  },
+  "ResNet18": {
+    "accuracy": 0.9479012345679012,
+    "macro_precision": 0.9491836368903626,
+    "macro_recall": 0.9486444444444444,
+    "macro_f1": 0.9469851023149788,
+    "inference_ms_per_image": 0.696305079258264,
+    "macro_roc_auc_ovr": null
+  },
+  "ViT-B16": {
+    "accuracy": 0.9614814814814815,
+    "macro_precision": 0.9614562279942461,
+    "macro_recall": 0.9619333333333332,
+    "macro_f1": 0.9610031673651468,
+    "inference_ms_per_image": 5.032626123457355,
+    "macro_roc_auc_ovr": null
+  }
+}
